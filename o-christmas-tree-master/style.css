@@ -1,0 +1,94 @@
+body{
+	margin: 0px;
+}
+#container{
+	height: calc(100vh);
+	width: 100%;
+	display: flex;
+	flex-direction: row;	
+}
+#side_bar{
+	height: 100%;
+	width:450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#sidebar-title{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgreen;
+}
+#ornament-container{
+	width: 70%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+.ornament{
+	height: 30px;
+	width: 30px;
+	margin:10px;
+	border-radius:200px; 
+}
+#other-container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.other{
+	margin:10px;
+}
+#tree{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+.tree_part{
+	height: 50px;
+	background-color: rgb(240, 240, 240)
+	margin:20px;
+	display: flex;
+	align-items: space-around;
+	flex-direction:row;
+	justify-content: center;
+	box-shadow:  0 0 10px #000000;
+}
+#tree1{
+	height: 100px;
+	width:100px;
+}
+#tree2{
+	width: 50px;
+}
+#tree3{
+	width: 100px;
+}
+#tree4{
+	width: 150px;
+}
+#tree5{
+	width: 200px;
+}
+#tree6{
+	height: 150px;
+	width: 500px;
+}
+
+
+
+
+
+
