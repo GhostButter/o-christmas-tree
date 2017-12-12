@@ -1,3 +1,18 @@
 body{
 	background-color: lightblue; 
 }
+#text{
+	font-size: 20px;
+	font-family: Monospace;
+	display: flex;
+	flex-wrap: wrap;
+}
+.part2{
+	margin :10px 150px;
+}
+.part1{
+	margin: 10px 0px 0px 25px;
+}
+#img1{
+	margin: 10px 15px 100px;
+}
